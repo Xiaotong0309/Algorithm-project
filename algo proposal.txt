@@ -1,0 +1,16 @@
+Title: Use Tree Decompositions with Bounded Width Algorithm to Solve NP-hard Problems
+
+Team Member: Xiaotong Diao
+
+Abstract: NP-hard problem could take exponential time to deal with, which is hard to solve in industry world. And treewidth is a notion which can be used to solve such problems. Treewidth can be defined in terms of many notions, including tree decomposition, search games and brambles.[1] In my project, I plan to use tree decomposition to represent treewidth, which was introduced by Robertson and Seymour.[2] The treewidth of a graph equals the minimum width of a tree decomposition of the graph. Here, treewidth is a measure of the count of original graph vertices mapped onto any tree vertex in an optimal tree decomposition.[2] In order to solve NP-hard problems, the treewidth need to be bounded. So, I plan to investigate and understand several algorithms, which have been proposed, using tree decompositions with bounded width, and then implement these algorithms to solve NP-hard problems, which have been discussed in class.
+
+Firstly, I plan to select 2 algorithms based on tree decompositions and restrict the testing graph within partial k-trees, which means the graph is bounded with k width. One of these algorithm was proposed by Jan Arne Telle and Andrzej Proscurowski in 1997 and the other was proposed by Stefan ARNBORG and Andrzej PROSKUROWSKI in 1989. They are both expected to run in linear time, which can be much faster than approximation methods(polynomial time).
+
+Secondly, I plan to apply both algorithms to 2 popular NP-hard problems, which are graph coloring problem and graph packing problem. I will also test the efficiency and accuracy of both tree Decompositions algorithms and also visualize the results to make it more understandable.
+
+Reference:
+
+[1] Bodlaender, Hans L. "Treewidth: Structure and algorithms." International Colloquium on Structural Information and Communication Complexity. Springer, Berlin, Heidelberg, 2007.
+[2] Robertson, N. and Seymour, P. D. "Graph Minors III: Planar Tree-Width." J. Combin. Th., Ser. B 36, 49-64, 1984.
+
+I prefer to post a video about my project on youtube.
